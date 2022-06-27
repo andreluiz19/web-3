@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'amazonemberlight';
+  src: url('AmazonEmber_Lt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'amazonember';
+  src: url('AmazonEmber_Rg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

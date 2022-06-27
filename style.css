@@ -1,0 +1,456 @@
+/* Zerando Parâmetros */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+header {
+  font-family: 'amazonember', arial;
+  background-image: linear-gradient(to top, #1b2835, #1f3042);
+  max-width: 100%;
+}
+
+.menu {
+  font-family: 'amazonember', arial;
+  background-color: #1b242e;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  height: 75px;
+  margin: auto;
+  align-items: center;
+  background-image: linear-gradient(to top, #1b2835, #1f3042);
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  vertical-align: middle;
+  padding-top: 6px;
+  padding-left: 46px;
+  margin-top: 18px;
+}
+
+.logo img {
+  max-width: 110px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.menu-items {
+  padding: 0 30px;
+  display: flex;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+
+.menu-items a {
+  color: rgb(200, 200, 200);
+  padding-right: 14px;
+  text-decoration-line: none;
+  font-size: 16px;
+  display: flex;
+  font-family: 'amazonemberlight', arial;
+}
+
+/* Showcase */
+body {
+  box-sizing: border-box;
+  background: url(images/background.jpg) no-repeat top center;
+  background-position-y: 70px;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  margin-top: 60px;
+  font-family: 'amazonemberlight', arial;
+}
+
+.content {
+  padding-left: 70px;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 60px;
+  cursor: default;
+}
+
+.legenda p {
+  font-size: 21px;
+  line-height: 1.3;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 530px;
+  min-width: 300px;
+  text-align: left;
+  padding-right: 10px;
+  cursor: default;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.login-teste {
+  width: 300px;
+  max-width: 100%;
+  color: white;
+  cursor: pointer;
+}
+
+.login-teste a {
+  padding: 16px 5px;
+  background-color: #0f79af;
+  background-image: linear-gradient(to top, #0f79af, #0f79af);
+  font-size: 17px;
+  display: block;
+  border-radius: 2px;
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  max-width: 280px;
+}
+
+#ou{
+  font-size: 15px;
+  padding: 0px;
+  text-align: center;
+  margin: 10px auto;
+  width: 30px
+}
+
+.container-texto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 290px;
+}
+
+#traco-esquerda{
+  border: 1px solid white;
+  width: 120px;
+}
+
+#traco-direita{
+  border: 1px solid white;
+  width: 120px;
+}
+
+p{
+  color: white;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-top: 40px;
+  cursor: default;
+}
+
+#login {
+  display: none;
+}
+
+.loginTela{
+  height: 100px;
+  width: 50px;
+}
+
+/* Form Login */
+
+#formLogin{
+  background-color: white;
+  max-width: 400px;
+  width: 70%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  border: 4px solid #ccc;
+  display: none;
+}
+
+.label{
+  font-family: Arial;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.campos{
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+
+#entrar{
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  background: rgb(33, 57, 80);
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#telaBusca{
+  display: none;
+  width: 100px;
+  height: 100px;
+  background: white;
+}
+
+#fechar{
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  background: #FF0000;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#msgLoginTrue{
+  background-color: #ccc;
+  max-width: 400px;
+  width: 70%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
+  border: 4px solid #ccc;
+  display: none;
+}
+
+#msgLoginFalse{
+  background-color: #ccc;
+  max-width: 400px;
+  width: 70%;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%,-50%);
+  border: 4px solid #ccc;
+  display: none;
+}
+
+.msgLabelT{
+  font-family: Arial;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+.msgLabelF{
+  font-family: Arial;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+#btMsgT{
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  background: rgb(33, 57, 80);
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#btMsgF{
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  background: rgb(33, 57, 80);
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  margin-top: 10px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.menu-search {
+  font-family: 'amazonember', arial;
+  background-color: #1b242e;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  height: 75px;
+  margin: auto;
+  align-items: center;
+  background-image: linear-gradient(to top, #1b2835, #1f3042);
+  position: fixed;
+  top: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.logo-search {
+  display: flex;
+  vertical-align: middle;
+  padding-top: 6px;
+  padding-left: 46px;
+  margin-top: 18px;
+}
+
+.logo-search img {
+  max-width: 110px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.menu-items-search {
+  padding: 0 30px;
+  display: flex;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+
+.menu-items-search a {
+  color: rgb(200, 200, 200);
+  padding-right: 14px;
+  text-decoration-line: none;
+  font-size: 16px;
+  display: flex;
+  font-family: 'amazonemberlight', arial;
+}
+
+#buscar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input-search{
+  margin-top: 50px;
+  margin-left: 600px;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 60px;
+  height: 35px;
+  background: #1f3042;
+  font-size: 17px;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.609);
+  align-items: center;
+}
+
+#button-search{
+  background: #1f3042;
+  border: none;
+  border-radius: 60px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 950px;
+  border: 1px solid rgba(255, 255, 255, 0.609);
+}
+/*
+#input-search{
+  margin-top: 50px;
+  margin-left: 550px;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 60px;
+  height: 35px;
+  background: #1f3042;
+  font-size: 17px;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.609);
+}
+
+#button-search{
+  background: #1f3042;
+  border: none;
+  border-radius: 60px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 550px;
+  border: 1px solid rgba(255, 255, 255, 0.609);
+}
+*/
+.card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 60px;
+  margin-top: 50px;
+  grid-gap: 20px;
+  align-content: center;
+}
+
+.card li{
+  background: #1f3042;
+  width: 230px;
+  height: 400px;
+  margin-top: 200px;
+  list-style: none;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.609);
+
+}
+
+.card div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card img{
+  width: 230px;
+  height: 300px;
+}
+
+.title{
+  word-wrap: normal;
+  text-align: center;
+}
+
+.genres{
+  width: 220px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.card li:hover{
+  transform: scale(1.1);
+}
+
+#buscar{
+  display: none;
+}

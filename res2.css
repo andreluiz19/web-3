@@ -1,0 +1,312 @@
+/* Zerando Parâmetros */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+header {
+    font-family: 'amazonember', arial;
+    background-image: linear-gradient(to top, #1b2835, #1f3042);
+    max-width: 100%;
+}
+
+.menu {
+    font-family: 'amazonember', arial;
+    background-color: #1b242e;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 75px;
+    align-items: center;
+    background-image: linear-gradient(to top, #1b2835, #1f3042);
+    position: fixed;
+    top: 0;
+    max-width: 100%;
+    width: 100%;
+}
+  
+.logo {
+    display: flex;
+    vertical-align: middle;
+    margin-left: -8px;
+    margin-top: 20px;
+}
+  
+.logo img {
+    max-width: 110px;
+    max-height: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+  
+.menu-items {
+    padding: 0px 34px;
+    display: flex;
+    margin-left: 150px;
+    margin-top: -32px;
+    width: 100%;
+}
+  
+.menu-items a {
+    color: rgb(200, 200, 200);
+    padding-right: 18px;
+    text-decoration-line: none;
+    font-size: 16px;
+    display: flex;
+    font-family: 'amazonemberlight', arial;
+    display: none;
+}
+
+.last{
+    padding-left: 26px;
+}
+
+#idBusca {
+    margin-left: 820px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+}
+
+.globo {
+    margin-left: 860px;
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+  }
+  
+.idioma {
+    margin-left: 890px;
+    margin-top: -21px;
+    display: flex;
+    font-size: 16px;
+    font-family: 'amazonemberlight', arial;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+    align-items: center;
+    font-weight: 600;
+}
+  
+.user {
+    margin-left: 940px;
+    margin-top: -22px;
+    display: flex;
+    align-items: center;
+}
+
+.exp {
+    background-color: rgb(19, 153, 222);
+    font-size: 16px;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    background-image: linear-gradient(to top, #0f79af, #0f79af);
+    text-align: center;
+    max-width: 100%;
+    text-decoration: none;
+    width: 180px;
+    height: 100%;
+    max-height: 18px;
+    margin-left: 600px;
+    margin-top: -10px;
+    display: flex;
+    font-family: 'amazonemberlight', arial;
+    align-items: center;
+}
+
+body {
+    box-sizing: border-box;
+    background: url(images/background.jpg) no-repeat top center;
+    background-position-y: 50px;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    margin-top: 60px;
+    font-family: 'amazonemberlight', arial;
+}
+
+.content {
+    padding-left: 60px;
+    padding-top: 65px;
+}
+  
+h1 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: default;
+    margin-left: 0px;
+}
+  
+.legenda p {
+    font-size: 21px;
+    line-height: 1.3;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 10px;
+    cursor: default;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    min-width: 400px;
+    margin-left: 0px;
+}
+  
+.login-teste {
+    width: 300px;
+    max-width: 100%;
+    color: white;
+}
+  
+.login-teste a {
+    padding: 16px 5px;
+    background-color: #0f79af;
+    background-image: linear-gradient(to top, #0f79af, #0f79af);
+    font-size: 17px;
+    display: block;
+    border-radius: 2px;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    max-width: 280px;
+    margin-left: 0px;
+}
+  
+#ou{
+    font-size: 15px;
+    padding: 0px;
+    text-align: center;
+    margin: 10px auto;
+    width: 30px;
+    margin-left: 0px;
+}
+  
+.container-texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+}
+  
+#traco-esquerda{
+    border: 1px solid white;
+    width: 120px;
+    margin-left: -35px;
+}
+  
+#traco-direita{
+    border: 1px solid white;
+    width: 120px;
+    margin-right: 30px;
+}
+  
+p {
+    color: white;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+    cursor: default;
+}
+
+#freetest{
+  min-width: 700px;  
+}
+
+#buscar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #input-search{
+    margin-top: 50px;
+    margin-left: 270px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 60px;
+    height: 35px;
+    background: #1f3042;
+    font-size: 17px;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.609);
+    align-items: center;
+  }
+  
+  #button-search{
+    background: #1f3042;
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 600px;
+    border: 1px solid rgba(255, 255, 255, 0.609);
+  }
+
+
+  .card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 170px;
+    margin-top: -120px;
+    grid-gap: 20px;
+    align-content: center;
+  }
+  
+  .card li{
+    background: #1f3042;
+    width: 230px;
+    height: 400px;
+    margin-top: 200px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    transition: 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.609);
+  
+  }
+  
+  .card div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card img{
+    width: 230px;
+    height: 300px;
+  }
+  
+  .title{
+    word-wrap: normal;
+    text-align: center;
+  }
+  
+  .genres{
+    width: 220px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  
+  .card li:hover{
+    transform: scale(1.1);
+  }
+  
+  #buscar{
+    display: none;
+  }
