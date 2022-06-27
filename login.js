@@ -29,10 +29,11 @@ let msgLoginT = document.getElementById('msgLoginTrue');
 let msgLoginF = document.getElementById('msgLoginFalse');
 let btF = document.getElementById('btMsgF');
 
+/*
 if(tk){
     iconeBusca.style.display = 'block';
 }
-
+*/
 btEntrar.addEventListener("click", fnValidar);
 function fnValidar(){
     let contE = email.value.length;
