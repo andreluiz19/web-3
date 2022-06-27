@@ -47,7 +47,7 @@ function fnValidar(){
         })
     }
     formu.addEventListener('submit', function(e) {
-        axios.post('', {
+        axios.post('https://projeto-web-dautfpr.herokuapp.com/cadastrar', {
             email: email.value,
             password: senha.value
         })
